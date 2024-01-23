@@ -17,7 +17,7 @@ export function CreateList({ onCreate }) {
   return (
     <div>
       <form className="create-list-form" onSubmit={onSubmit}>
-        <div>
+        <div className="create-form-action-wrapper">
           <input
             placeholder="List Name"
             type="text"
